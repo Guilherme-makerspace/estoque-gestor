@@ -15,6 +15,7 @@ const PORT = 3001;
 app.listen(PORT, '0.0.0.0');
 
 app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
 app.use(express.static(path.join(__dirname, '../frontend')));
 app.use(session({
     secret: process.env.SESSION_SECRET,
