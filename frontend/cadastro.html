@@ -18,29 +18,38 @@
     <main class="container">
         <h1>Cadastro de Produto</h1>
         <form id="cadastro-form" class="card">
-            <label for="nome">Nome:</label>
-            <input type="text" id="nome" name="nome" required>
-
-            <label for="marca">Marca:</label>
-            <input type="text" id="marca" name="marca" required>
-
-            <label for="volume">Volume:</label>
-            <input type="text" id="volume" name="volume" required>
-
-            <label for="tipo_embalagem">Tipo de Embalagem:</label>
-            <input type="text" id="tipo_embalagem" name="tipo_embalagem" required>
-
-            <label for="aplicacao">Aplicação:</label>
-            <input type="text" id="aplicacao" name="aplicacao" required>
-
-            <label for="estoque">Estoque:</label>
-            <input type="number" id="estoque" name="estoque" required>
-
-            <label for="estoque_minimo">Estoque Mínimo:</label>
-            <input type="number" id="estoque_minimo" name="estoque_minimo" required>
-
-            <div class="row-right">
-                <button type="submit" class="btn">Cadastrar</button>
+            <div class="form-inline">
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div>
+                    <label for="marca">Marca:</label>
+                    <input type="text" id="marca" name="marca" required>
+                </div>
+                <div>
+                    <label for="volume">Volume:</label>
+                    <input type="text" id="volume" name="volume" required>
+                </div>
+                <div>
+                    <label for="tipo_embalagem">Embalagem:</label>
+                    <input type="text" id="tipo_embalagem" name="tipo_embalagem" required>
+                </div>
+                <div>
+                    <label for="aplicacao">Aplicação:</label>
+                    <input type="text" id="aplicacao" name="aplicacao" required>
+                </div>
+                <div>
+                    <label for="estoque">Estoque:</label>
+                    <input type="number" id="estoque" name="estoque" required>
+                </div>
+                <div>
+                    <label for="estoque_minimo">Estoque Mínimo:</label>
+                    <input type="number" id="estoque_minimo" name="estoque_minimo" required>
+                </div>
+                <div class="row-right">
+                    <button type="submit" class="btn">Cadastrar</button>
+                </div>
             </div>
         </form>
         <script>

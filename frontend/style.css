@@ -206,7 +206,25 @@ h1, h2, h3 {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    align-items: center;
+    align-items: flex-start;
+}
+
+.form-inline > div {
+    flex: 1;
+    min-width: 150px;
+}
+
+.form-inline > div label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-inline > div input {
+    width: 100%;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ced4da;
 }
 
 .row-right {
