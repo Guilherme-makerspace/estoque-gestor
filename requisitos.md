@@ -70,5 +70,5 @@ O sistema usa duas "caixas" principais no banco:
 - Alertas devem aparecer automaticamente quando o estoque fica baixo.
 - O site deve funcionar bem em navegadores modernos e se adaptar ao tamanho da tela.
 
-Se quiser ver como isso tudo foi implementado, olhe os arquivos `api/server.js` e as páginas em `frontend/`. Qualquer coisa, é só perguntar!
+Se quiser ver como isso tudo foi implementado, olhe os arquivos `api/server.js` e as páginas em `frontend/`.
 u
