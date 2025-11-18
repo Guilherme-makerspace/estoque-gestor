@@ -43,4 +43,4 @@ Esses endpoints são para acessar as páginas do site, como se fossem links norm
 - Se algo der errado, ela avisa com códigos de erro (400 para dados ruins, 500 para problemas internos).
 - A API roda na porta 3001 e aceita conexões de qualquer lugar.
 
-Se quiser ver o código por trás disso tudo, dá uma olhada no arquivo `api/server.js`. Qualquer dúvida, é só perguntar!
+Se quiser ver o código por trás disso tudo, dá uma olhada no arquivo `api/server.js`.
